@@ -1,0 +1,3 @@
+line=input("Line: ")
+rev=line[::-1]
+print(rev)
