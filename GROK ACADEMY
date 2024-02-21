@@ -1,0 +1,9 @@
+num=input("Enter the expenses: ")
+f=num.split(" ")
+total=0
+for i in f:
+  new=int(i)
+  total=total+new
+print(f"Total: ${total}")
+
+#Testing no expenses. Your submission raised an exception of type ValueError. This occurred on line 5 of your submission.
