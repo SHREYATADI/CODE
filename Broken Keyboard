@@ -1,0 +1,6 @@
+say=input("What did she say? ") 
+say=say.replace('###','o')
+say=say.replace('##','e')
+say=say.replace('%%','a')
+print(f"She meant to say: {say}")
+
