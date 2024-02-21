@@ -1,0 +1,6 @@
+st=input("Students: ")
+f=st.split(" ")
+f.sort()
+print("Class Roll")
+for i in f:
+  print(i)
