@@ -1,0 +1,3 @@
+num=int(input("Enter a number: "))
+un=(num*"_")
+print(f"^{un}^")
