@@ -1,0 +1,8 @@
+c=int(input("Current floor: "))
+d=int(input("Destination floor: "))
+print(f"Level {c}")
+while c!=d:
+  c=c+1
+  print(f"Level {c}")
+
+  
