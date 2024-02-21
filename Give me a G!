@@ -1,0 +1,6 @@
+name=input("Cheer: ")
+for i in name:
+  print(f'Give me a {i}, {i}!')
+print("What does it spell?")
+up=name.upper()
+print(up)
