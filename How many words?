@@ -1,0 +1,11 @@
+words=[]
+word=input("Word: ")
+while word!="":
+  words.append(word)
+  word=input("Word: ")
+if word=="":
+  d=set(words)
+  length=len(d)
+  print(f"You know {length} unique word(s)!") 
+
+  
