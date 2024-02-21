@@ -1,0 +1,7 @@
+print("What is my favourite food?")
+gu=input("Guess? ")
+while  gu!="electricity":
+  print("Not even close.")
+  gu=input("Guess? ")
+if gu=="electricity":
+  print("You guessed it! Buzzzz")
