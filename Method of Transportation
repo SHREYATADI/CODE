@@ -1,0 +1,11 @@
+question=input("Is it currently raining? ")
+if question=="Yes":
+  print("You should take the bus.")
+elif question=="No":
+  travel=int(input("How far in km do you need to travel? "))
+  if travel<2:
+    print("You should walk.")
+  elif travel>10:
+    print("You should take the bus.")
+  elif travel>=2 or travel<=10:
+    print("You should ride your bike.")
