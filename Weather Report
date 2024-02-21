@@ -1,0 +1,5 @@
+nu=input("Which days had rain? ")
+s=nu.split()
+length=len(s)
+f=int(7-length)
+print(f"Number of days without rain: {f}")
