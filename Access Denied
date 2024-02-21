@@ -1,0 +1,5 @@
+pas=input("Enter password: ")
+if pas=="chEEzburg3rz":
+  print("Access granted")
+else:
+  print("Access denied")
