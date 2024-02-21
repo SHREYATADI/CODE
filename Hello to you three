@@ -1,0 +1,9 @@
+f1=input("Friend: ")
+f2=input("Friend: ")
+f3=input("Friend: ")
+print(f'Hello, young {f1}')
+print(f'Hello, wise {f2}')
+print(f'Hello, brave {f3}')
+
+
+
