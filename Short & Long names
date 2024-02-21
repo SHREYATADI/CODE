@@ -1,0 +1,8 @@
+name=input("Enter your name: ")
+length=len(name)
+if length<=3:
+  print(f'Hi {name}, you have a short name.')
+elif length>8:
+  print(f"Hi {name}, you have a long name.")
+elif length>=4 or length<=8:
+  print(f"Hi {name}, nice to meet you.")
