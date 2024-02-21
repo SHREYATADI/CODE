@@ -1,0 +1,4 @@
+pas=input(("What is the password Ali? "))
+if pas=="Open sesame!":
+  print("The cave door opens!")
+
